@@ -399,7 +399,7 @@ a{
         min-width:25%;
         min-height:10vh;
         max-height:45vh;
-        background-image: url(folhasmalditas.png);
+       background-image: url(../imagens/folhasmalditas.png);
         border-color:#227E20;
         border-width:1vh;
         border-radius:3vh;
@@ -496,6 +496,7 @@ a{
     border-width:1.5vh;
     border-color: #227E20;
     border-radius: 3vh;
+    background-color: #4aa5da7c;
     
     }
     #q2{
@@ -505,7 +506,7 @@ a{
     border-width:1.5vh;
     border-color: #227E20;
     border-radius: 3vh;
-   
+    background-color: #52c2417a;
     }
     #q3{
     min-width:90%;
@@ -514,9 +515,8 @@ a{
     border-width:1.5vh;
     border-color: #227E20;
     border-radius: 3vh;
-    
+    background-color: #c295418c;
     }
-    
     .tit{
         font-size:medium;
     }   
