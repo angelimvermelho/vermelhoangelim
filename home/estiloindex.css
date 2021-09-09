@@ -1,0 +1,538 @@
+#pagina{
+    background: white;
+    width: viewport;
+    height: viewport;
+}
+#cabecalho{
+    width: viewport;
+    max-height:35vh;
+    min-height:20vh;
+    background:transparent;
+    margin-top: 0vh;
+    margin-bottom: 2%;
+}
+#logo{
+    background-color: transparent;
+    max-width:22%;
+    min-width:10%;
+    height: fit-content;
+    float:left;
+}
+#logotipo{
+    width:100%;
+    float:middle;
+    margin-top: 1%;
+    margin-bottom:0%;
+}
+#menu{
+    width:100%;
+    height:auto;
+    margin-right:0vh;
+}
+#opcoes{
+    background-color: white;
+    border-color:#227E20;
+    border-style: double;
+    border-radius:3vh;
+    margin-top:1vh;
+    height:auto;
+    border-width: 1.5vh;
+    text-align: center;
+    padding:2.5%;
+    width:viewport;
+    float:middle;
+}
+#conheca{
+    background-color: #53C241;
+    height:fit-content;
+    width:viewport;
+    padding:0.5vh;
+}
+#conhecajogo{
+    font-family: 'Palanquin', sans-serif;
+    color:#289F00;
+    background-color: white;
+    font-size: medium;
+    height:fit-content;
+    padding:0.5vh;
+    text-align: center;
+    float:middle;
+    margin-top:0.5vh;
+    font-weight: bold;
+    border-color:#289F00;
+}
+#slides{
+    width:viewport;
+    height:fit-content;
+    background: transparent;
+    padding-top:2%;
+    padding-bottom:0%;
+}
+#slideshow{
+    width:90%;
+    min-width:25%;
+   height:max-content;
+    background-image: url(../imagens/folhasmalditas.png);
+    border-color:#227E20;
+    border-width:1vh;
+    border-radius:3vh;
+    border-style:solid;
+    margin-left:5%;
+    margin-right:5%;
+}
+#bemvindoo{
+    display:none;
+}
+#pontinhos{
+    background-color: rosybrown;
+    width:30%;
+    float:middle;
+    height:fit-content;
+    margin-top:0%;
+}
+.dot{
+    background-color:seagreen;
+    min-width:1%;
+    max-width:4%;
+    border-radius: 50%;
+}
+.btn-primary-dropdown-toggle{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    width:fit-content;
+    font-weight:bold;
+    font-size:large;
+    padding-bottom:1%;
+    padding-left:2%;
+    padding-right:2%;
+    text-align:center;
+    border-radius:2.5vh;
+    border-color: whitesmoke;
+    height:fit-content;
+    box-shadow: 0.5em, 0.5em, 1em,  rgb(144, 161, 135);
+}
+#b1{
+    background-color: #227E20; 
+}
+#b2{
+    background: #523A32;
+}
+#b3{
+    background: #53C241; 
+}
+#b4{
+    background: #4AA6DA; 
+}
+h2{
+    font-family: 'Poly', serif;
+    font-size:larger;
+    color:white;
+    text-align: center;
+    text-shadow:  0vh 2vh 2vh rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    
+}
+h1{
+    background: #227E20;
+    border: 0.5vh solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0vh 2vh 2vh rgba(0, 0, 0, 0.25);
+    border-radius: 2vh;
+    width:fit-content;
+    text-align: center;
+    font-family: 'Poly', serif;
+    font-size:larger;
+    color:white;
+    font-weight: bold;
+    float:middle;
+}
+#samelazinha{
+    width:90%;
+    height:auto;   
+}
+#awia{
+    min-width:10%;
+    max-width:24%;
+    height:min-content;
+    margin-top:-7%;
+    margin-left:10%;
+    padding-bottom:2%;
+}
+#boasvindas{
+    float:middle;
+    min-width:12%;
+    max-width:20%;
+    margin-left:5%;
+    height: fit-content;
+    margin-top: 5%;
+}
+#faixa{
+    width:fit-content;
+    height:fit-content;
+    margin-top: 3%;
+}
+#faixaa{
+    width:80%;
+}
+
+#quadrinhos{
+    width: viewport;
+    height:max-content;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-weight: 700;
+    font-size: medium;
+    text-align: justify;
+    text-indent: 5%;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+#q1{
+    float:left; 
+}
+#q2{
+    float:middle;
+}
+#q3{
+    float:right;
+}
+
+.w3-button_w3-display-right{
+    height:fit-content;
+    color: white;
+    text-shadow: 0vh 2vh 2vh rgba(0, 0, 0, 0.75);
+    border-style: none;
+    background-color: transparent;
+    font-size:xx-large;
+    margin-top:8%;
+}
+.w3-button_w3-display-left{
+    height:fit-content;
+    color: white;
+    text-shadow: 0vh 2vh 2vh rgba(0, 0, 0, 0.75);
+    border-style: none;
+    background-color: transparent;
+    font-size:xx-large;
+    margin-top:8%;
+}
+#rodape{
+    background-color: #227E20;
+    width: viewport;
+    height:max-content;
+    text-align: center;
+}
+p{
+    float:middle;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding:3%;
+}
+#q1{
+    max-width:25%;
+    min-width:10%;
+    background-color: transparent;
+    border-style: double;
+    border-width:1.5vh;
+    border-color: #227E20;
+    border-radius: 3vh;
+    background-color: #4aa5da7c;
+}
+#q2{
+    max-width:25%;
+    min-width:10%;
+    background-color: transparent;
+    border-style: double;
+    border-width:1.5vh;
+    border-color: #227E20;
+    border-radius: 3vh;
+    background-color: #52c2417a;
+}
+#q3{
+    max-width:25%;
+    min-width:10%;
+    background-color: transparent;
+    border-style: double;
+    border-width:1.5vh;
+    border-color: #227E20;
+    border-radius: 3vh;
+    background-color: #c295418c;
+}
+.tit{
+    background-color: #523A32;
+    width:96%;
+    height:wrap-content;
+    text-align: right;
+    margin-top: 3%;
+    float:middle;
+    border-radius:2vh;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:large;
+    padding-right: 3%;
+}   
+#costelas{
+    position:relative;
+    
+    width:35%;
+    float:left;
+}
+#samambaias{
+    position:relative;
+    width:30%;
+    float:right;
+}
+#bananeiras{
+    position:relative;
+    width:35%;
+    float:left;
+}
+.dropdown-menu{
+    border-style: solid;
+    border-color:white;
+    border-width:0.5vh;
+    background-color: #227E20;
+    padding:2%;
+    min-width:45%;
+    max-width:100%;
+}
+li{
+    background-color: #53C241;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:2%;
+}
+a{
+    color:white;
+}
+#jogo{
+    min-width:50%;
+    max-width:70%;
+    background-color: black;
+    height:40vh;
+}
+.normal{
+    font-family: 'Palanquin', sans-serif;
+    color:#289F00;
+}
+#faixaaa{
+    display:none;
+}
+@media screen and (max-width:800px){
+    #conheca{
+        display: none;
+    }
+    #conhecajogo{
+        display: none;
+    }
+    #logo{
+        background-color: transparent;
+        max-width:50%;
+        min-width:40%;
+        height: fit-content;
+        float:left;
+    }
+    #logotipo{
+        width:100%;
+        float:middle;
+        margin-top: 5%;
+        margin-bottom:0%;
+    }
+    #opcoes{
+        background-color: white;
+        border-color:#227E20;
+        border-style: double;
+        border-radius:3vh;
+        margin-top:5%;
+        height:auto;
+        margin-right:1%;
+        border-width: 1%;
+        text-align: center;
+        padding:1.5%;
+        float:right;
+    }
+    #menu{
+        max-width:60%;
+        min-width:50%;
+    }
+    .btn-primary-dropdown-toggle{
+        font-family: 'Montserrat', sans-serif;
+        color:white;
+        font-weight:bold;
+        font-size:small;
+        padding-bottom:1%;
+        padding-left:2%;
+        padding-right:2%;
+        text-align:center;
+        border-radius:1.5vh;
+        border-color: whitesmoke;
+        height:fit-content;
+        width:max-content;
+        box-shadow: 0.5em, 0.5em, 1em,  rgb(144, 161, 135);
+    }
+    #samelazinha{
+        width:100%;
+        height:auto;   
+    }
+    #awia{
+        min-width:45%;
+        max-width:60%;
+        height:fit-content;
+        margin-top:1%;
+        margin-left:0%;
+    }
+    #faixa{
+        display: none;
+    }
+    #faixaa{
+        display:none;
+    }
+    #slides{
+        width:viewport;
+        height:fit-content;
+        background: transparent;
+        padding-top:2vh;
+        padding-bottom:2vh;
+    }
+    #slideshow{
+        width:96%;
+        min-width:25%;
+        min-height:10vh;
+        max-height:45vh;
+        background-image: url(folhasmalditas.png);
+        border-color:#227E20;
+        border-width:1vh;
+        border-radius:3vh;
+        border-style:solid;
+    }
+    h2{
+        font-family: 'Poly', serif;
+        font-size:medium;
+        color:white;
+        text-align: center;
+        text-shadow:  0vh 2vh 2vh rgba(0, 0, 0, 0.75);
+        line-height: 0.5%;
+    }
+    br{
+        height:0.5%;
+    }
+    h1{
+        background: #227E20;
+        border: 0.5vh solid #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0vh 2vh 2vh rgba(0, 0, 0, 0.25);
+        border-radius: 2vh;
+        width:max-content;
+        text-align: center;
+        font-family: 'Poly', serif;
+        font-size:large;
+        color:white;
+        font-weight: bold;
+        float:middle;
+    }
+    #bemvindo{
+        text-align: center;
+        display:block;
+        height: fit-content;
+        width:min-content;
+        padding-right:10%;
+        padding-left:10%;
+        margin-bottom:15%;
+        margin-top:15%;
+        float:middle;
+    }
+    #boasvindas{
+        float:right;
+        min-width:30%;
+        max-width:40%;
+        margin-left:0%;
+        height: fit-content;
+        margin-top: 5%;
+    }
+    #bemvindoo{
+        display:block;
+        height: fit-content;
+        width:min-content;
+        padding-right:10%;
+        padding-left:10%;
+        margin-bottom:15%;
+        margin-top:15%;
+        float:middle;
+    }
+    .w3-button_w3-display-right{
+        height:fit-content;
+        color: white;
+        text-shadow: 0vh 2vh 2vh rgba(0, 0, 0, 0.75);
+        border-style: none;
+        background-color: transparent;
+        font-size:medium;
+        margin-top:20%;
+    }
+    .w3-button_w3-display-left{
+        height:fit-content;
+        color: white;
+        text-shadow: 0vh 2vh 2vh rgba(0, 0, 0, 0.75);
+        border-style: none;
+        background-color: transparent;
+        font-size:medium;
+        margin-top:20%;
+        float:right;
+    }
+    #quadrinhos{
+        width: viewport;
+        height:fit-content;
+        font-family: 'Montserrat', sans-serif;
+        color:black;
+        font-weight: 700;
+        font-size: smaller;
+        text-align: justify;
+        text-indent: 5%;
+       
+    }
+    #q1{
+    min-width:90%;
+    background-color: transparent;
+    border-style: double;
+    border-width:1.5vh;
+    border-color: #227E20;
+    border-radius: 3vh;
+    
+    }
+    #q2{
+    min-width:90%;
+    background-color: transparent;
+    border-style: double;
+    border-width:1.5vh;
+    border-color: #227E20;
+    border-radius: 3vh;
+   
+    }
+    #q3{
+    min-width:90%;
+    background-color: transparent;
+    border-style: double;
+    border-width:1.5vh;
+    border-color: #227E20;
+    border-radius: 3vh;
+    
+    }
+    
+    .tit{
+        font-size:medium;
+    }   
+    #costelas{
+        position:relative;
+    width:25%;
+    float:left;
+    }
+    #samambaias{
+    position:relative;
+    width:25%;
+    float:right;
+    }
+    #bananeiras{
+        position:relative;
+    width:25%;
+    float:left;
+    }
+}
