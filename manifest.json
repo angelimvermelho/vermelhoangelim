@@ -1,0 +1,15 @@
+
+{
+    "name": "Angelim Vermelho",
+    "short_name": "Angelim Vermelho | Portal",
+    "lang": "Portuguese",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "icons":[
+        {
+            "src":"imagens/logocirculo.png",
+            "size":"144x144",
+            "type":"image/png"
+        }
+    ]
+  }
