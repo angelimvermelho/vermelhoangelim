@@ -68,8 +68,11 @@
     padding-top:2%;
     padding-bottom:0%;
 }
+.carousel-inner{
+    
+}
 #slideshow{
-    width:90%;
+    width:94%;
     min-width:25%;
    height:max-content;
     background-image: url(../imagens/folhasmalditas.png);
@@ -77,25 +80,13 @@
     border-width:1vh;
     border-radius:3vh;
     border-style:solid;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:3%;
+    margin-right:3%;
 }
 #bemvindoo{
     display:none;
 }
-#pontinhos{
-    background-color: rosybrown;
-    width:30%;
-    float:middle;
-    height:fit-content;
-    margin-top:0%;
-}
-.dot{
-    background-color:seagreen;
-    min-width:1%;
-    max-width:4%;
-    border-radius: 50%;
-}
+
 .btn-primary-dropdown-toggle{
     font-family: 'Montserrat', sans-serif;
     color:white;
@@ -125,12 +116,22 @@
 }
 h2{
     font-family: 'Poly', serif;
-    font-size:larger;
+    font-size:x-large;
     color:white;
     text-align: center;
     text-shadow:  0vh 2vh 2vh rgba(0, 0, 0, 0.75);
     font-weight: bold;
     
+}
+#dive{
+    display: block;
+        width:40%;
+        max-height:80vh;
+        min-height:10vh;
+        background-color: #fa5c00;
+        margin:5%;
+        margin-left: -5%;
+        float:right;
 }
 h1{
     background: #227E20;
@@ -141,20 +142,19 @@ h1{
     width:fit-content;
     text-align: center;
     font-family: 'Poly', serif;
-    font-size:larger;
+    font-size:xx-large;
     color:white;
     font-weight: bold;
     float:middle;
 }
 #samelazinha{
-    width:90%;
-    height:auto;   
+    width:70%;
+    height:min-content;   
 }
 #awia{
     min-width:10%;
     max-width:24%;
     height:min-content;
-    margin-top:-7%;
     margin-left:10%;
     padding-bottom:2%;
 }
@@ -371,15 +371,15 @@ a{
         box-shadow: 0.5em, 0.5em, 1em,  rgb(144, 161, 135);
     }
     #samelazinha{
-        width:100%;
+        width:80%;
         height:auto;   
     }
     #awia{
         min-width:45%;
-        max-width:60%;
+        max-width:50%;
         height:fit-content;
         margin-top:1%;
-        margin-left:0%;
+        margin-left:10%;
     }
     #faixa{
         display: none;
@@ -391,20 +391,30 @@ a{
         width:viewport;
         height:fit-content;
         background: transparent;
-        padding-top:2vh;
-        padding-bottom:2vh;
+        padding-top:2%;
+        padding-bottom:0%;
+    }
+    #angelinho{
+        display:flex;
+        font-size: larger;
+        margin-left:-25%;
+    }
+    .carousel-inner{
+        
     }
     #slideshow{
         width:96%;
         min-width:25%;
-        min-height:10vh;
-        max-height:45vh;
-       background-image: url(../imagens/folhasmalditas.png);
+       height:max-content;
+        background-image: url(../imagens/folhasmalditas.png);
         border-color:#227E20;
         border-width:1vh;
         border-radius:3vh;
         border-style:solid;
+        margin-left:2%;
+        margin-right:2%;
     }
+    
     h2{
         font-family: 'Poly', serif;
         font-size:medium;
@@ -445,9 +455,10 @@ a{
         float:right;
         min-width:30%;
         max-width:40%;
-        margin-left:0%;
+        margin-left:-15%;
         height: fit-content;
         margin-top: 5%;
+        padding-bottom:7%;
     }
     #bemvindoo{
         display:block;
@@ -490,32 +501,42 @@ a{
        
     }
     #q1{
-    min-width:90%;
-    background-color: transparent;
-    border-style: double;
-    border-width:1.5vh;
-    border-color: #227E20;
-    border-radius: 3vh;
-    background-color: #4aa5da7c;
-    
+        min-width:90%;
+        background-color: transparent;
+        border-style: double;
+        border-width:1.5vh;
+        border-color: #227E20;
+        border-radius: 3vh;
+        background-color: #4aa5da7c;
+        
+        }
+        #q2{
+        min-width:90%;
+        background-color: transparent;
+        border-style: double;
+        border-width:1.5vh;
+        border-color: #227E20;
+        border-radius: 3vh;
+        background-color: #52c2417a;
+        }
+        #q3{
+        min-width:90%;
+        background-color: transparent;
+        border-style: double;
+        border-width:1.5vh;
+        border-color: #227E20;
+        border-radius: 3vh;
+        background-color: #c295418c;
+        }
+    #awiaa{
+        display:none;
     }
-    #q2{
-    min-width:90%;
-    background-color: transparent;
-    border-style: double;
-    border-width:1.5vh;
-    border-color: #227E20;
-    border-radius: 3vh;
-    background-color: #52c2417a;
-    }
-    #q3{
-    min-width:90%;
-    background-color: transparent;
-    border-style: double;
-    border-width:1.5vh;
-    border-color: #227E20;
-    border-radius: 3vh;
-    background-color: #c295418c;
+    #dive{
+        display: block;
+        width:60%;
+        height:15vh;
+        background-color: #fa5c00;
+        margin:5%;
     }
     .tit{
         font-size:medium;
