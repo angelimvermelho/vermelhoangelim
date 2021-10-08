@@ -27,7 +27,7 @@
             </div>
             <div class="col" id="menu" float="right">
                 <div class="row" id="conheca">
-                    <button class="w-10 mx-auto"id="conhecajogo"><a class="normal"href="./imagens/jogo.PNG">CONHEÇA NOSSO JOGO!</a></button>
+                    <button class="w-10 mx-auto"id="conhecajogo"><a class="normal" href="./imagens/jogo.PNG">CONHEÇA NOSSO JOGO!</a></button>
                 </div>
                 <div class="row" id="opcoes">
                     <div class="w-10 mx-auto">
@@ -90,9 +90,14 @@
                 </div>
             </div>
         </div>
-        <div class="row" id="slides">
-            <div class="row" id="slideshow">
-                <button class="w3-button_w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
                 <div class="col" id="awia" float="left">
                     <img src="./imagens/samelazinha.png" id="samelazinha">
                 </div>
@@ -105,10 +110,24 @@
                 <div class="col" id="faixa" float="right">
                     <img src="./imagens/faixa.png" id="faixaa">
                 </div>
-                <button class="w3-button_w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+              </div></div>
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col" id="awia" float="left">
+                        <img src="./imagens/samelazinha.png" id="samelazinha">
+                    </div>
+                    <div class="col" id="dive"></div>
+              </div></div>  
             </div>
-            
-        </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         <div class="row" id="quadrinhos">
             <div class="w-10 mx-auto" id="q1">
             <img src="./imagens/costelas.png" id="costelas">
